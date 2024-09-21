@@ -1,0 +1,27 @@
+[project]
+name = "match-data"
+version = "0.1.0"
+description = "A model for matching data"
+authors = [
+    {name = "ram", email = "ram@example.com"},
+]
+dependencies = [
+    "torch>=2.2.1",
+    "ijson>=3.2.3",
+    "tqdm>=4.66.2",
+    "notebook>=7.1.1",
+    "scikit-learn>=1.4.1.post1",
+    "pandas>=2.2.1",
+    "transformers>=4.40.0",
+    "matplotlib>=3.8.4",
+    "ipywidgets>=8.1.2",
+    "sentencepiece>=0.2.0",
+    "torchinfo>=1.8.0",
+]
+requires-python = "==3.10.*"
+readme = "README.md"
+license = {text = "MIT"}
+
+
+[tool.pdm]
+distribution = false
